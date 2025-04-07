@@ -205,8 +205,8 @@ if __name__ == '__main__':
     args.dist_url = 'env://'
 
     # Input paths for evaluation
-    args.img_path = r'C:\Users\jm190\Desktop\Deep Learning\19\DJI_0287.png'  # update this path
-    args.resume = r'C:\Users\jm190\Desktop\pre-trained_models\JHU_Crowd.pth'  # update this path
-    args.vis_dir = r'C:\Users\jm190\PycharmProjects\PET_cc\visualization'  # or set to a directory for visualizations
+    args.img_path = r'./data/custom/DJI_0069.jpg'  # update this path
+    args.resume = r'./pretrained/JHU_Crowd.pth'  # update this path
+    args.vis_dir = r'./newvis'  # or set to a directory for visualizations
 
     main(args) # here we go
