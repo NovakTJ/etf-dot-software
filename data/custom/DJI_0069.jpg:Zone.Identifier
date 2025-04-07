@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/ae6fb19f-999b-439a-b34a-0d71701ddd15/DJI_0069.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20250307%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20250307T181230Z&X-Amz-Expires=86400&X-Amz-Signature=b87e1337195081aad7ed9e5c4666d9fc0db5efac4a4c4d8f0d2b24bac8e64ffb&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22DJI_0069.jpg%22&response-content-type=image%2Fjpeg&x-id=GetObject
