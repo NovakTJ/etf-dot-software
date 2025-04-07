@@ -1,7 +1,3 @@
-ls
-cd ..
-ls
-cd novak_stijepic/
 nvidia-smi
 conda create -n torch1.12 python=3.8
 conda activate torch1.12
@@ -12,20 +8,8 @@ conda create -n pytorch112 python=3.8 -y
 conda activate pytorch112
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
 python -c "import torch; print(torch.cuda.is_available())"  # Should return True
-git
-git clone https://github.com/ETF-RG-IRD/dot-Software
-cd dot-Software/
-code --version
-cd ..
-rmdir dot-Software -r
-rmdir dot-Software/
-rmdir -r dot-Software/
-rm -r dot-Software/
-ls
-rm -r dot-Software
-ls
+
 git clone https://github.com/NovakTJ/etf-dot-software
-git checkout cloud
 cd etf-dot-software/
 git checkout cloud
 git pull
@@ -46,19 +30,10 @@ sudo apt-get update
 sudo apt-get install -y libgl1 libglib2.0-0 libsm6 libxext6 libxrender-dev
 pip uninstall opencv-python
 pip install opencv-python-headless  # Use headless version for server environments
-ls -la ~/.bash_history  # Check permissions (should be `-rw-------`)
-python whole_img_feed.py 
 cd etf-dot-software/
-python whole_img_feed.py 
-git pull
-python whole_img_feed.py 
-git pull
-python whole_img_feed.py 
 cd pretrained
 wget https://download.pytorch.org/models/vgg16_bn-6c64b313.pth
 cd ..
-python whole_img_feed.py 
-ls
 cd pretrained/
 nano JHU_Crowd.pth 
 nano ../../.bash_history 
