@@ -1,3 +1,5 @@
 *.pth
 *.jpg
 *.JPG
+
+!data/custom/*.jpg
